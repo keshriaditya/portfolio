@@ -27,7 +27,7 @@ jobs:
       run: npm ci
       
     - name: Build
-      run: ng build --configuration production --base-href="/portfolio/"
+      run: ng build --configuration production --base-href="/portfolio/" --output-path=docs
       
     - name: Setup Pages
       uses: actions/configure-pages@v3
@@ -35,7 +35,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
-        path: './dist/portfolio'
+        path: './docs'
         
     - name: Deploy to GitHub Pages
       id: deployment
