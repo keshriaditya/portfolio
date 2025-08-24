@@ -2,11 +2,11 @@
 
 A modern, responsive personal portfolio website showcasing my journey as a Senior Software Developer. Built with Angular 20+ featuring smooth animations, holographic effects, and a futuristic dark theme.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Portfolio+Preview)
+![Portfolio Preview](./docs/assets/images/portfolio.png)
 
 ## 🌟 Live Demo
 
-🔗 **[View Live Portfolio](https://your-portfolio-url.com)**
+🔗 **[View Live Portfolio](https://keshriaditya.github.io/portfolio/)**
 
 ## 👨‍💻 About Me
 
